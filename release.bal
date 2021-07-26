@@ -5,7 +5,6 @@ import ballerina/os;
 
 const CONFIG_JSON_PATH = "./resources/connectors.json";
 const GITHUB_API_PATH = "https://api.github.com/repos/lakshanss";//need to change to ballerina-platform
-const GITHUB_TOKEN = "GITHUB_TOKEN";
 const ACCEPT_HEADER_KEY = "Accept";
 const ACCEPT_HEADER_VALUE = "application/vnd.github.v3+json";
 const DISPATCHES = "/dispatches";

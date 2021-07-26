@@ -1,0 +1,17 @@
+name: Connector Release
+
+on: workflow_dispatch
+
+jobs:
+    build:
+        name: Release Ecosystem Team Connectors
+        runs-on: ubuntu-latest
+        steps:
+            -   uses: actions/checkout@v2
+            -   name: Trigger Connector Release
+                uses: ballerina-platform/ballerina-action@slbeta2
+                with:
+                    args:
+                        run release.bal
+                env:
+                    BALLERINA_BOT_TOKEN: ${{ secrets.BALLERINA_BOT_TOKEN }}
