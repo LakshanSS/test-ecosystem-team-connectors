@@ -1,0 +1,11 @@
+{
+    "connectors": [
+        {
+            "name": "module-lakshans-mongodb",
+            "version": "2.0.10",
+            "release": true
+        }
+    ],
+    "ballerinaDistVersion": "slbeta2",
+    "ballerinaLangVersion": "2.0.0-beta.2.1"
+}
